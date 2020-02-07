@@ -2,7 +2,6 @@
     font-size: 30px;
     text-align: center;
 }
-
 .border{
     border-radius: 50%;
     
@@ -10,8 +9,7 @@
 .margin1{
     margin-left: 35%;
     margin-right: 35%;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 footer{
     position: absolute;
@@ -21,9 +19,6 @@ footer{
     justify-content: center;
     margin-right: 21em;
     margin-left: 21em;
-    
-    
-    /* width: 750px */
 }
 .align{
     text-align: center;
@@ -43,6 +38,7 @@ head{
     display: flex;
     flex-direction: column;
 }
+
 @media screen and (max-width:1000px) and (min-width:240px){
     .margin1{
         margin-left: 3% ;
@@ -53,12 +49,7 @@ head{
         margin-right: 2%;
         margin-left: 3%;
     }
-    body{
-        /* padding-bottom: 50%; */
-    }
-    
     .border{
-        /* font-size: px; */
         width: 5%;
         height: auto;
     }
@@ -66,13 +57,11 @@ head{
         font-size: 80px;
     }
     p{
-        /* color: rgb(81, 45, 241); */
         padding: 0.7em;
     }
     .foot{
         font-size: 35px;
         line-height: 1.5em;
-        /* padding-bottom: ; */
     }
     footer{
         position: absolute;
